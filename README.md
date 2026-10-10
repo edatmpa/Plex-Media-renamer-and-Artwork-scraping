@@ -103,6 +103,21 @@ switch. Without AI you simply review more rows yourself.
 
 You can open the settings again at any time with the **Edit settings** button in the start window.
 
+### Or let an AI coding agent set it up
+
+The project is self-contained (code, `Setup.bat`, `requirements.txt`, `config.example.json`), so an AI coding
+agent such as Claude Code, Codex or Cursor can install it for you. Open the agent on your Plex PC and give
+it a prompt like this:
+
+> Clone https://github.com/edatmpa/Plex-Media-renamer-and-Artwork-scraping to C:\PlexTools and set it up by
+> following its README: check Python 3.12+, create the .venv with requirements.txt (or run Setup.bat),
+> install MediaInfo, and create config.json from config.example.json. Find my Plex Media Server's database
+> and confirm the tools can read it. Ask me for my API keys and put them in config.json. Never print or log
+> the keys, and don't change any media folders or Plex settings during setup.
+
+Then start `Plex Tools.bat` and follow the Guide tab. Your keys belong only in `config.json`, which is never
+uploaded.
+
 ## API keys: how to get them
 
 An API key is a password-like code that lets a program use an online service in your name. Keep keys
