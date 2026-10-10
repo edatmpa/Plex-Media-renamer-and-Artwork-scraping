@@ -1,0 +1,27 @@
+# personal settings and API keys - never upload
+config.json
+*.key
+*key*.txt
+
+# this PC's working data
+cache/
+logs/
+plans/
+reports/
+settings.json
+settings_*.json
+search_sites.json
+
+# owner's private project notes (paths, server ids, history)
+CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Office / Windows
+~$*
+Thumbs.db
+desktop.ini

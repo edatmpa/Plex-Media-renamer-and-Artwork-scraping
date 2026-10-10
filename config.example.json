@@ -1,0 +1,16 @@
+{
+ "_help": "Copy this file to config.json and fill in your keys. Blank values use the defaults. Use / in paths. See README.md.",
+
+ "plex_db": "",
+ "plex_url": "http://127.0.0.1:32400",
+ "plex_token": "",
+ "tesseract": "C:/Program Files/Tesseract-OCR/tesseract.exe",
+ "nas_hosts": {},
+
+ "keys": {
+  "tmdb": "paste-your-TMDB-API-key-here",
+  "deepseek": "",
+  "zai": "",
+  "deepl": ""
+ }
+}
